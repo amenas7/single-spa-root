@@ -1,25 +1,16 @@
 <single-spa-router>
   <main>
     <route default>
-      <div class="container mt-4">
+      <div class="container microfrontend-container mt-4 text-center">
         <div class="row mb-4">
-          <h1
-            style="
-              text-align: center;
-              color: #4b4a4a;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              gap: 10px;
-            "
-          >
+          <h1 class="title-container">
             Microfrontend usando single SPA
-            <span style="display: inline-block">🚀</span>
+            <span class="rocket-icon">🚀</span>
           </h1>
-          <div class="col-6 mt-3">
+          <div class="col-6 app-container mt-4">
             <application name="@galaxy/react-mf"></application>
           </div>
-          <div class="col-6 mt-3">
+          <div class="col-6 app-container mt-4">
             <application name="@galaxy/vue-mf"></application>
           </div>
         </div>

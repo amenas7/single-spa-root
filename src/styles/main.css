@@ -1,0 +1,20 @@
+.title-container {
+  text-align: center;
+  color: #4b4a4a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.rocket-icon {
+  display: inline-block;
+}
+
+.microfrontend-container {
+  margin-top: 8rem;
+}
+
+.app-container {
+  margin-top: 3rem;
+}
