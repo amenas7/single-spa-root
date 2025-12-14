@@ -1,4 +1,4 @@
-# Galaxy Root Config
+# Microfront usando Single SPA
 
 Configuración raíz del proyecto microfrontend con single-spa.
 
@@ -18,4 +18,3 @@ npm run start
 ```
 
 El proyecto se ejecutará en el puerto 9000.
-
